@@ -1,0 +1,96 @@
+*{
+    font-family: arial;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #00ff00; 
+    text-align: center;
+    text-shadow: 0 0 .4rem #00ff00; 
+}
+
+#game {
+    width: 465px;
+    height: 460px;
+    background: #363636;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game .box {
+    width: 152.7px;
+    height: 150px;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    font-size: 4rem;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 0 0 .4rem #00ff00;
+}
+
+.modal {
+    display: none;
+    background: url(./shrek\ modal.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    border-radius: 10px;
+    text-align: end;
+}
+
+.modal.active {
+    display: block;
+}
+
+.modal p {
+    font-size: 2rem;
+    padding: 0 2rem;
+    text-align: left;
+    color: #00ff00;
+    text-shadow: 0 0 .4rem #00ff00;
+}
+.modal button {
+    margin: 0 1rem 20px 1rem;
+    font-size: 1.2rem;
+    padding: 7px 30px;
+    cursor: pointer;
+    background: #2c2c2c;
+    color: #00ff00;
+    border-radius: 10px;
+    border: 1px solid #00ff00; 
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal button:hover {
+    background-color: #00ff00;
+    color: #2c2c2c;
+    box-shadow: 0 6px 12px #00ff004d;
+}
+
+.shrek {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    rotate: 0deg;
+    transition: transform 0.3s;
+}
+
+.shrek:hover {
+    transform: scale(1.2) rotate(60deg);
+}
