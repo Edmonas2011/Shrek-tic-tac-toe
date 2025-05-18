@@ -27,43 +27,48 @@ Try the game here:
 
 ### 📥 Clone the Repository
 
-``bash
 git clone https://github.com/Edmonas2011/Shrek-tic-tac-toe.git
-📂 Navigate to the project folder
-bash
-Копировать
-Редактировать
+
+### 📂 Navigate to the project folder
+
 cd Shrek-tic-tac-toe
-🌐 Open the game
-Open the index.html file in your browser:
 
-Копировать
-Редактировать
-start index.html     # Windows
-open index.html      # macOS
-xdg-open index.html  # Linux
-🛠️ Technologies Used
-HTML5
+### 🌐 Open the game
 
-CSS3
+Open the `index.html` file in your browser:
 
-Vanilla JavaScript
+- Windows: start index.html  
+- macOS: open index.html  
+- Linux: xdg-open index.html
 
-📁 Project Structure
-bash
-Копировать
-Редактировать
-Shrek-tic-tac-toe/
-├── index.html     # Main HTML file
-├── style.css      # Styling
-└── script.js      # Game logic
-📬 Connect with Me
-GitHub: Edmonas2011
+---
 
-Telegram: @edmonaseyann
+## 🛠️ Technologies Used
 
-Instagram: @111_.ase7aann
+- HTML5  
+- CSS3  
+- Vanilla JavaScript  
 
-⭐ Show Your Support
-If you enjoy this game, please give it a ⭐ on GitHub!
+---
+
+## 📁 Project Structure
+
+Shrek-tic-tac-toe/  
+├── index.html     # Main HTML file  
+├── style.css      # Styling  
+└── script.js      # Game logic  
+
+---
+
+## 📬 Connect with Me
+
+- GitHub: [Edmonas2011](https://github.com/Edmonas2011)  
+- Telegram: [@edmonaseyann](https://t.me/edmonaseyann)  
+- Instagram: [@111_.ase7aann](https://instagram.com/111_.ase7aann)  
+
+---
+
+## ⭐ Show Your Support
+
+If you enjoy this game, please give it a ⭐ on GitHub!  
 Thanks for your support!
